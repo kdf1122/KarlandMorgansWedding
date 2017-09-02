@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Karl and Morgan's Day of Fun!
 
 You can use the [editor on GitHub](https://github.com/kdf1122/KarlandMorgansWedding/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
