@@ -1,10 +1,10 @@
 # Karl and Morgan's Day of Fun!
 
-**This will be a semi-formal affair**
+**This will be a semi-formal Reception**
 
 
 
-## July 14, 2017
+## July 14, 2018
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
