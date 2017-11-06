@@ -11,10 +11,8 @@ module.exports = {
 	// og: Meta Tags
 	ogSiteName: '', // Facebook Site Name
 	googleAnalyticsID: '',
-	copyright: 'Copyright © 2017. All rights reserved. Pictures by Unsplash.', // Copyright in the footer of the site
-	// You can translate these three words into your language if you want. They'll be shown on the project page header
 	client: 'Client',
-	date: 'Date',
+	date: 'July 14, 2018',
 	service: 'Service',
 	// Manifest and Progress color
 	themeColor: '#3498DB',

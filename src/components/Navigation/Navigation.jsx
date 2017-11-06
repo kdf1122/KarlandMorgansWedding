@@ -31,11 +31,17 @@ export default class Navigation extends Component {
 					<Fade down duration={2000} className={styles.wrapper}>
 						<nav className={styles.navigation}>
 							<span>
+								<Link to="/" activeClassName="active">
+                  Home
+								</Link>
 								<Link to="/about" activeClassName="active">
                   About
 								</Link>
-								<Link to="/contact" activeClassName="active">
-                  Contact
+								<Link to="/about" activeClassName="active">
+                  RSVP
+								</Link>
+								<Link to="/registry" activeClassName="active">
+                  Registry
 								</Link>
 							</span>
 						</nav>
@@ -47,35 +53,14 @@ export default class Navigation extends Component {
 							</span>
 						</div>
 						<div className={styles.socialMedia}>
-							<span>
-								<a
-									href="https://www.instagram.com/lekoarts.de"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaInstagram />
-								</a>
-								<a
-									href="https://www.behance.net/lekoarts"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaBehance />
-								</a>
-								<a
-									href="https://dribbble.com/LeKoArts"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaDribbble />
-								</a>
-							</span>
+							<span>{config.date}</span>
 						</div>
 					</Fade>
 				</Headroom>
 				<div className={styles.mobileNav}>
 					<div className={styles.mobileNavName}>
 						<h3>{config.siteTitle}</h3>
+						<h4>{config.date}</h4>
 					</div>
 					<div className={styles.menu}>
 						<Menu
@@ -85,6 +70,8 @@ export default class Navigation extends Component {
 						>
 							<Link to="/" onClick={() => this.closeMenu()}>
 								<h1>{config.siteTitle}</h1>
+								<h2>{config.date}</h2>
+								<hr />
 							</Link>
 							<Link
 								to="/about"
@@ -100,29 +87,6 @@ export default class Navigation extends Component {
 							>
                 Contact
 							</Link>
-							<div className={styles.mobileNavSocialMedia}>
-								<a
-									href="https://www.instagram.com/lekoarts.de"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaInstagram />
-								</a>
-								<a
-									href="https://www.behance.net/lekoarts"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaBehance />
-								</a>
-								<a
-									href="https://dribbble.com/LeKoArts"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaDribbble />
-								</a>
-							</div>
 						</Menu>
 					</div>
 				</div>
