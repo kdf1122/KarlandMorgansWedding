@@ -77,19 +77,40 @@ export default class Navigation extends Component {
 								<hr />
 							</Link>
 							<Link
-								to="/about"
+								to="/photos"
 								activeClassName="active"
 								onClick={() => this.closeMenu()}
 							>
-                About
+                Photos
 							</Link>
 							<Link
-								to="/contact"
+								to="/rsvp"
 								activeClassName="active"
 								onClick={() => this.closeMenu()}
 							>
-                Contact
+                RSVP
 							</Link>
+              <Link
+                to="/accommodations"
+                activeClassName="active"
+                onClick={() => this.closeMenu()}
+              >
+                Accommodations
+              </Link>
+              <Link
+                to="/wedding-day"
+                activeClassName="active"
+                onClick={() => this.closeMenu()}
+              >
+                Wedding Day
+              </Link>
+              <Link
+                to="/registry"
+                activeClassName="active"
+                onClick={() => this.closeMenu()}
+              >
+                Registry
+              </Link>
 						</Menu>
 					</div>
 				</div>
