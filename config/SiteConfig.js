@@ -15,8 +15,8 @@ module.exports = {
 	date: 'July 14, 2018',
 	service: 'Service',
 	// Manifest and Progress color
-	themeColor: '#3498DB',
-	backgroundColor: '#2b2e3c',
+	themeColor: '#008686',
+	backgroundColor: '#004747',
 	// Settings for typography.js
 	headerFontFamily: 'Merriweather',
 	bodyFontFamily: 'Roboto',
