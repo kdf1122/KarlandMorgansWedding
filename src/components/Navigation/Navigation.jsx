@@ -47,7 +47,7 @@ export default class Navigation extends Component {
                   Wedding Day
 								</Link>
 								<Link to="/registry" activeClassName="active">
-                  Wedding Day
+                  Registry
 								</Link>
 							</span>
 						</nav>
