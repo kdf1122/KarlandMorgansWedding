@@ -1,2 +1,2 @@
-webpackJsonp([0x93c9caf4fd18],{373:function(t,o){t.exports={data:{markdownRemark:{html:"<p>TBD</p>",frontmatter:{title:"Photos"},fields:{slug:"/photos"},excerpt:"TBD"}},pathContext:{slug:"/photos"}}}});
+webpackJsonp([0x93c9caf4fd18],{369:function(t,o){t.exports={data:{markdownRemark:{html:"<p>TBD</p>",frontmatter:{title:"Photos"},fields:{slug:"/photos"},excerpt:"TBD"}},pathContext:{slug:"/photos"}}}});
 //# sourceMappingURL=path---photos-30f6330887cc355384f0.js.map
