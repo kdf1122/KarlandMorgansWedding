@@ -1,2 +1,0 @@
-webpackJsonp([0xc533676dcc21],{374:function(a,e){a.exports={data:{markdownRemark:{html:"<h1>Description</h1>\n<p>This is description about Morgan.</p>",frontmatter:{title:"Morgan",date:"27.12.1989",client:"Morgan",service:"Bride",cover:{childImageSharp:{resize:{src:"/Morganandkarlswedding/static/morgan1-7a04c09895ad85a0e5be2ad9c46e7360-648b2.jpg"}}}},fields:{slug:"/morgan"},excerpt:"Description This is description about Morgan."}},pathContext:{slug:"/morgan",_PARENT:"SOURCE"}}}});
-//# sourceMappingURL=path---morgan-acdd63c49983b03efe9b.js.map
