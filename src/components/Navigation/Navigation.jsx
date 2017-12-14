@@ -40,12 +40,13 @@ export default class Navigation extends Component {
 								<Link to="/accommodations" activeClassName="active">
                   Accommodations
 								</Link>
+								<Link to="/wedding-day" activeClassName="active">
+                  Wedding
+								</Link>
 								<Link to="/registry" activeClassName="active">
                   Registry
 								</Link>
-								<Link to="/wedding-day" activeClassName="active">
-                  Wedding Day
-								</Link>
+
 							</span>
 						</nav>
 						<div className={styles.name}>
@@ -98,18 +99,18 @@ export default class Navigation extends Component {
                 Accommodations
               </Link>
               <Link
-                to="/registry"
-                activeClassName="active"
-                onClick={() => this.closeMenu()}
-              >
-                Registry
-              </Link>
-              <Link
                 to="/wedding-day"
                 activeClassName="active"
                 onClick={() => this.closeMenu()}
               >
                 Wedding Day
+              </Link>
+              <Link
+                to="/registry"
+                activeClassName="active"
+                onClick={() => this.closeMenu()}
+              >
+                Registry
               </Link>
 						</Menu>
 					</div>
