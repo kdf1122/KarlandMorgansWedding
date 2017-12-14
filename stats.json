@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-templates-project-jsx": [
-      "component---src-templates-project-jsx-a43f19b61f95a789166f.js",
-      "component---src-templates-project-jsx-a43f19b61f95a789166f.js.map"
+      "component---src-templates-project-jsx-280341aac6a17e559a6a.js",
+      "component---src-templates-project-jsx-280341aac6a17e559a6a.js.map"
     ],
     "path---wedding-day": [
       "path---wedding-day-ff5e366287eb4fc4ff7b.js",
@@ -32,18 +32,14 @@
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-about-jsx": [
-      "component---src-pages-about-jsx-575be16af46fb4aba20e.js",
-      "component---src-pages-about-jsx-575be16af46fb4aba20e.js.map"
-    ],
     "path---photos": [
       "path---photos-30f6330887cc355384f0.js",
       "path---photos-30f6330887cc355384f0.js.map"
     ],
     "commons": [
-      "commons-612b1aaabd1dd6a91f63.js",
+      "commons-25852c6269da12735dce.js",
       "build-js-styles.css",
-      "commons-612b1aaabd1dd6a91f63.js.map",
+      "commons-25852c6269da12735dce.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -63,22 +59,18 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-ef4d9a7cb2d3dec93794.js",
-      "component---src-pages-index-jsx-ef4d9a7cb2d3dec93794.js.map"
+      "component---src-pages-index-jsx-03a4b3ba804beb08c63c.js",
+      "component---src-pages-index-jsx-03a4b3ba804beb08c63c.js.map"
     ],
     "app": [
-      "app-d544a6e42ca33be2ffca.js",
+      "app-5f7b8427efe09f7f663e.js",
       "build-js-styles.css",
-      "app-d544a6e42ca33be2ffca.js.map",
+      "app-5f7b8427efe09f7f663e.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---about": [
-      "path---about-a0e39f21c11f6a62c5ab.js",
-      "path---about-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
