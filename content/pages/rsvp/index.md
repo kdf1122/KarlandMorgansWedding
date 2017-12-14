@@ -1,6 +1,4 @@
 ---
-title: "Accommodations"
+title: "RSVP"
 ---
-
-
-Accommodations
+TBD

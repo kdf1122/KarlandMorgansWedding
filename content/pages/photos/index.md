@@ -1,6 +1,4 @@
 ---
-title: "Accommodations"
+title: "Photos"
 ---
-
-
-Accommodations
+TBD

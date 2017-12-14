@@ -3,18 +3,19 @@ import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import Palette from 'react-palette'
 import styles from './ProjectListing.module.scss'
+import morgan from './assets/morgan1.jpg'
+import karl from './assets/karl1.jpg'
 
 export default class ProjectListing extends React.PureComponent {
 	getList() {
 		const List = []
-		this.props.projectEdges.forEach(projectEdge => {
-			List.push({
-				path: projectEdge.node.fields.slug,
-				cover: projectEdge.node.frontmatter.cover.childImageSharp.sizes,
-				client: projectEdge.node.frontmatter.client,
-				service: projectEdge.node.frontmatter.service,
-				imageURL: projectEdge.node.frontmatter.cover.childImageSharp.sizes.src,
-			})
+		List.push({
+			imageURL: karl,
+			name: "Karl",
+		})
+		List.push({
+			imageURL: morgan,
+			name: "Morgan",
 		})
 		return List
 	}
@@ -23,31 +24,20 @@ export default class ProjectListing extends React.PureComponent {
 		return (
 			<div className={styles.base}>
 				{List.map(project => (
-					<div key={project.path} className={styles.wrapper}>
+					<div key={project.imageURL} className={styles.wrapper}>
 						<div className={styles.content}>
 							<div className={styles.image}>
-								<Img sizes={project.cover} />
+								<img src={project.imageURL} />
 							</div>
-							<Link
-								to={project.path}
-								key={project.path}
-								className={styles.link}
-							>
-								<Palette image={project.imageURL}>
-									{palette => (
-										<div
-											className={styles.overlay}
-											style={{ backgroundColor: palette.vibrant }}
-										/>
-									)}
-								</Palette>
-								<h2 className={styles.client} key={project.client}>
-									{project.client}
-								</h2>
-								<div className={styles.service} key={project.service}>
-									{project.service}
-								</div>
-							</Link>
+							<Palette image={project.imageURL}>
+								{palette => (
+									<div
+										className={styles.overlay}
+										style={{ backgroundColor: palette.vibrant }}
+									/>
+								)}
+							</Palette>
+							<h2>{project.name}</h2>
 						</div>
 					</div>
 				))}
