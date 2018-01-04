@@ -31,9 +31,6 @@ export default class Navigation extends Component {
 					<Fade down duration={2000} className={styles.wrapper}>
 						<nav className={styles.navigation}>
 							<span>
-								<Link to="/photos" activeClassName="active">
-                  Photos
-								</Link>
 								<Link to="/rsvp" activeClassName="active">
                   RSVP
 								</Link>
@@ -46,7 +43,9 @@ export default class Navigation extends Component {
 								<Link to="/registry" activeClassName="active">
                   Registry
 								</Link>
-
+								<Link to="/photos" activeClassName="active">
+                  Photos
+								</Link>
 							</span>
 						</nav>
 						<div className={styles.name}>

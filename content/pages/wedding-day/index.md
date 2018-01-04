@@ -18,7 +18,8 @@ This will be an ADULT ONLY celebration
 
 What to wear
 ------------
-business casual
+<img src="http://static1.businessinsider.com/image/5751b32991058427008c69f5-1041/jpmorgandresscodeskitch.jpg" />
+<p>Credit: <a href="http://www.businessinsider.com/jp-morgans-relaxed-dress-code-2016-6">Business Insider</a></p>
 
 ---
 
