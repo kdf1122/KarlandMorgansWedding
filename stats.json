@@ -5,8 +5,8 @@
       "component---src-templates-project-jsx-280341aac6a17e559a6a.js.map"
     ],
     "path---wedding-day": [
-      "path---wedding-day-ff5e366287eb4fc4ff7b.js",
-      "path---wedding-day-ff5e366287eb4fc4ff7b.js.map"
+      "path---wedding-day-04d1d960b6e162679fe7.js",
+      "path---wedding-day-04d1d960b6e162679fe7.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,8 +17,8 @@
       "path---rsvp-43da74dd46186cb9a141.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-e4ec773b8cd1bd848d90.js",
-      "component---src-layouts-index-jsx-e4ec773b8cd1bd848d90.js.map"
+      "component---src-layouts-index-jsx-47fbdc88278dcf52fc9d.js",
+      "component---src-layouts-index-jsx-47fbdc88278dcf52fc9d.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -31,10 +31,6 @@
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---photos": [
-      "path---photos-30f6330887cc355384f0.js",
-      "path---photos-30f6330887cc355384f0.js.map"
     ],
     "commons": [
       "commons-25852c6269da12735dce.js",
@@ -51,21 +47,21 @@
       "component---src-pages-404-jsx-2194168c983c473ad6be.js.map"
     ],
     "path---registry": [
-      "path---registry-932260393b4d7ec32c6b.js",
-      "path---registry-932260393b4d7ec32c6b.js.map"
+      "path---registry-c0cbd9accdd3f69c8fad.js",
+      "path---registry-c0cbd9accdd3f69c8fad.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-03a4b3ba804beb08c63c.js",
-      "component---src-pages-index-jsx-03a4b3ba804beb08c63c.js.map"
+      "component---src-pages-index-jsx-14606f5f0b74199c1651.js",
+      "component---src-pages-index-jsx-14606f5f0b74199c1651.js.map"
     ],
     "app": [
-      "app-2e0a707628cc937d71e7.js",
+      "app-1181ef1042cfae700954.js",
       "build-js-styles.css",
-      "app-2e0a707628cc937d71e7.js.map",
+      "app-1181ef1042cfae700954.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
