@@ -43,9 +43,7 @@ export default class Navigation extends Component {
 								<Link to="/registry" activeClassName="active">
                   Registry
 								</Link>
-								<Link to="/photos" activeClassName="active">
-                  Photos
-								</Link>
+								<a href="https://photos.app.goo.gl/pEuD8l0WRJXAWXGe2" target="_blank">Photos</a>
 							</span>
 						</nav>
 						<div className={styles.name}>
@@ -77,13 +75,6 @@ export default class Navigation extends Component {
 								<hr />
 							</Link>
 							<Link
-								to="/photos"
-								activeClassName="active"
-								onClick={() => this.closeMenu()}
-							>
-                Photos
-							</Link>
-							<Link
 								to="/rsvp"
 								activeClassName="active"
 								onClick={() => this.closeMenu()}
@@ -102,7 +93,7 @@ export default class Navigation extends Component {
                 activeClassName="active"
                 onClick={() => this.closeMenu()}
               >
-                Wedding Day
+                Wedding
               </Link>
               <Link
                 to="/registry"
@@ -111,6 +102,7 @@ export default class Navigation extends Component {
               >
                 Registry
               </Link>
+              <a href="https://photos.app.goo.gl/pEuD8l0WRJXAWXGe2" target="_blank">Photos</a>
 						</Menu>
 					</div>
 				</div>

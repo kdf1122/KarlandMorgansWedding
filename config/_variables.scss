@@ -55,7 +55,7 @@ $black: #000;
 
 $content-width: 100vw;
 $gutter: 0;
-$columns: 2;
+$columns: 1;
 
 $row-size: calc( (#{$content-width} - #{$gutter} * (#{$columns} - 1)) / #{$columns} );
 

@@ -2,7 +2,7 @@
 
 .base {
 	display: grid;
-	grid-auto-rows: $row-size;
+	//grid-auto-rows: $row-size;
 	grid-column-gap: $gutter;
 	grid-row-gap: $gutter;
 	grid-template-columns: repeat($columns, 1fr);
