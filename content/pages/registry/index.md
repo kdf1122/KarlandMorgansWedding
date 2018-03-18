@@ -1,8 +1,7 @@
 ---
 title: "Registry"
 ---
-This is all we are doing for the registry. We still need to create the actual Amazon registry. 
 
 [Wayfair](https://www.wayfair.com/registry/wedding/morganandkarl)
 
-[Amazon](https://www.amazon.com/)
+[Amazon](https://www.amazon.com/wedding/karl-fleming-morgan-covert-penn-yan-july-2018/registry/2FH342U6VSYFD)
