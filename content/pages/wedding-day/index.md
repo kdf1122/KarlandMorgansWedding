@@ -6,6 +6,8 @@ Ceremony
 --------
 We will be holding a small ceremony with immediate family with a reception to follow.
 
+---
+
 Reception
 ---------
 **PLEASE NOTE: This will be an ADULT ONLY celebration.**
