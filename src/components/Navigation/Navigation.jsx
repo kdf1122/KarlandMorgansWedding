@@ -59,7 +59,7 @@ export default class Navigation extends Component {
 				<div className={styles.mobileNav}>
 					<div className={styles.mobileNavName}>
             <Link to="/">
-              <h3 style={{color: '#002121'}}>{config.siteTitle}</h3>
+              <h3 style={{color: '#002121', marginTop: '-6px'}}>{config.siteTitle}</h3>
               <h4 style={{color: '#002121'}}>{config.date}</h4>
             </Link>
 					</div>
