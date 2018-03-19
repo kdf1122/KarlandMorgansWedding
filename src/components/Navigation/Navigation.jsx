@@ -31,9 +31,7 @@ export default class Navigation extends Component {
 					<Fade down duration={2000} className={styles.wrapper}>
 						<nav className={styles.navigation}>
 							<span>
-								<Link to="/rsvp" activeClassName="active">
-                  RSVP
-								</Link>
+								<a href="https://goo.gl/forms/yzP2UHq5qJXw9WgI2" target="_blank">RSVP</a>
 								<Link to="/accommodations" activeClassName="active">
                   Accommodations
 								</Link>
@@ -74,14 +72,8 @@ export default class Navigation extends Component {
 								<h2>{config.date}</h2>
 								<hr />
 							</Link>
+              <a href="https://goo.gl/forms/yzP2UHq5qJXw9WgI2" target="_blank">RSVP</a>
 							<Link
-								to="/rsvp"
-								activeClassName="active"
-								onClick={() => this.closeMenu()}
-							>
-                RSVP
-							</Link>
-              <Link
                 to="/accommodations"
                 activeClassName="active"
                 onClick={() => this.closeMenu()}
